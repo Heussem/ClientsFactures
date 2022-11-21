@@ -8,9 +8,11 @@ public class Facture
 	 * Retourne le client à qui est adressée la facture..
 	 * @return le client.
 	 */
+	private String nomcli;
 	
 	public Client getClient()
 	{
+		this.nomcli=nomcli;
 		return null;
 	}
 
