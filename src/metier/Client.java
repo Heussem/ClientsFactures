@@ -10,14 +10,17 @@ public class Client
 	 * @param nom le nom du client. 
 	 */
 	
+	
 	public Client(String nom)
 	{
+		return nomcli;
 	}
 
 	/**
 	 * Retourne le nom du client.
 	 * @return le nom du client.
 	 */
+	
 	
 	public String getNom()
 	{
@@ -28,9 +31,11 @@ public class Client
 	 * Modifie le nom du client.
 	 * @param nom le nom du client.
 	 */
+	private String nomcli;
 	
 	public void setNom(String nom)
 	{
+		this.nomcli=nomcli;
 	}
 	
 	/**
